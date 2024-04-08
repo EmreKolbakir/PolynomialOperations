@@ -21,7 +21,6 @@ The project is structured around simple usage patterns. Here is a basic example 
 
 
 ```java
-// Your Java code goes here
 PolynomialLinkedList poly1 = new PolynomialLinkedList();
 poly1.addTerm(3, 2, 4); // Adds 3x^2y^4
 PolynomialLinkedList poly2 = new PolynomialLinkedList();
