@@ -19,6 +19,9 @@ git clone https://github.com/EmreKolbakir/PolynomialOperations
 ## Usage
 The project is structured around simple usage patterns. Here is a basic example of creating two polynomials and performing operations on them:
 
+
+```java
+// Your Java code goes here
 PolynomialLinkedList poly1 = new PolynomialLinkedList();
 poly1.addTerm(3, 2, 4); // Adds 3x^2y^4
 PolynomialLinkedList poly2 = new PolynomialLinkedList();
@@ -26,3 +29,12 @@ poly2.addTerm(5, 3, 2); // Adds 5x^3y^2
 
 PolynomialLinkedList result = PolynomialOperations.add(poly1, poly2);
 System.out.println(result); // Outputs the result of poly1 + poly2
+```
+
+## Testing
+
+- The test class includes several predefined tests to verify the correctness of polynomial operations. Run this class to ensure the implementation behaves as expected.
+
+
+
+
